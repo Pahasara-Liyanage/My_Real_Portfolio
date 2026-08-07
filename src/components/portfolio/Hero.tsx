@@ -1,4 +1,4 @@
-import { Mail, Phone, MapPin, User } from 'lucide-react';
+import { Mail, Phone, MapPin } from 'lucide-react';
 
 export default function Hero() {
   return (
@@ -56,10 +56,14 @@ export default function Hero() {
 
         <div className="md:col-span-5 flex justify-center animate-in fade-in zoom-in duration-700 delay-200">
           <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full bg-gradient-to-tr from-primary/40 to-blue-500/40 p-2 flex items-center justify-center overflow-hidden border-2 border-primary/20 shadow-2xl shadow-primary/20">
-            {/* Placeholder for Profile Picture */}
+            {/* Profile Picture */}
             <div className="w-full h-full rounded-full bg-card flex items-center justify-center overflow-hidden relative">
-               <User className="w-32 h-32 text-primary/50" />
-               <div className="absolute inset-0 bg-primary/5 hover:bg-transparent transition-colors duration-500"></div>
+               <img 
+                 src="/profile.jpg" 
+                 alt="Rasheen Pahasara Liyanage" 
+                 className="w-full h-full object-cover scale-[1.45] translate-y-5 hover:scale-[1.55] transition-transform duration-500" 
+               />
+               <div className="absolute inset-0 bg-primary/5 hover:bg-transparent transition-colors duration-500 pointer-events-none"></div>
             </div>
           </div>
         </div>
