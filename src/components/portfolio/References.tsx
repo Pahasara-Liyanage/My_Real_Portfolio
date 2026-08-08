@@ -1,4 +1,4 @@
-import { Users, Phone, MapPin, Building2, UserRound } from 'lucide-react';
+import { Users, Phone, Building2, UserRound } from 'lucide-react';
 
 const references = [
   {
