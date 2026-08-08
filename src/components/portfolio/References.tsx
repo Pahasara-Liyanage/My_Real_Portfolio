@@ -73,14 +73,7 @@ export default function References() {
           ))}
         </div>
 
-        <div className="mt-20 pt-10 border-t border-border flex flex-col md:flex-row justify-between items-center gap-6 text-sm text-muted-foreground font-medium">
-          <div className="flex items-center gap-4">
-            <span>DATE: .......................................</span>
-          </div>
-          <div className="flex items-center gap-4">
-            <span>SIGNATURE: .......................................</span>
-          </div>
-        </div>
+        
       </div>
     </section>
   );
