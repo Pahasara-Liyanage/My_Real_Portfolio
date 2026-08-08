@@ -20,8 +20,8 @@ const extracurriculars = [
 
 export default function Skills() {
   return (
-    <section id="skills" className="py-24 bg-accent/20">
-      <div className="container mx-auto px-6 max-w-6xl">
+    <section id="skills" className="py-16 sm:py-24 bg-accent/20">
+      <div className="container mx-auto px-4 sm:px-6 max-w-6xl">
         <div className="flex flex-col items-center mb-16 text-center animate-in fade-in slide-in-from-bottom-8 duration-700">
           <div className="inline-flex items-center rounded-full border border-primary/30 bg-primary/10 px-3 py-1 text-sm font-medium text-primary mb-4">
             <Code className="h-4 w-4 mr-2" />
@@ -36,7 +36,7 @@ export default function Skills() {
         <div className="grid lg:grid-cols-2 gap-12">
           {/* Technical Skills */}
           <div className="space-y-6">
-            <h3 className="text-2xl font-bold mb-6 flex items-center">
+            <h3 className="text-xl sm:text-2xl font-bold mb-4 sm:mb-6 flex items-center">
               <Monitor className="h-6 w-6 mr-3 text-primary" />
               Technical Skills
             </h3>
@@ -69,7 +69,7 @@ export default function Skills() {
           <div className="space-y-12">
             {/* Languages */}
             <div>
-              <h3 className="text-2xl font-bold mb-6 flex items-center">
+              <h3 className="text-xl sm:text-2xl font-bold mb-4 sm:mb-6 flex items-center">
                 <Languages className="h-6 w-6 mr-3 text-primary" />
                 Languages
               </h3>
@@ -93,7 +93,7 @@ export default function Skills() {
 
             {/* Extracurriculars */}
             <div>
-              <h3 className="text-2xl font-bold mb-6 flex items-center">
+              <h3 className="text-xl sm:text-2xl font-bold mb-4 sm:mb-6 flex items-center">
                 <Trophy className="h-6 w-6 mr-3 text-primary" />
                 Extracurricular Activities
               </h3>
